@@ -29,4 +29,4 @@ jobs:
     steps:
     # Runs a single command using the runners shell
     - name: Test
-      run: docker run -t --rm zonemaster/cli zonemaster.net --json
+      run: docker run -t --rm zonemaster/cli zonemaster.net --json --no-ipv6
